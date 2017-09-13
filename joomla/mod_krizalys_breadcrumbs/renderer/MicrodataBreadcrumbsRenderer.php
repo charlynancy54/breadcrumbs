@@ -33,7 +33,7 @@ class MicrodataBreadcrumbsRenderer extends BaseBreadcrumbsRenderer
     protected function getContainerAttrs()
     {
         return $this->makeItemScope()
-            . ' itemtype="http://schema.org/BreadcrumbList"';
+            . ' itemtype="https://schema.org/BreadcrumbList"';
     }
 
     /**
@@ -42,7 +42,7 @@ class MicrodataBreadcrumbsRenderer extends BaseBreadcrumbsRenderer
     protected function getItemContainerAttrs()
     {
         return $this->makeItemScope() . ' itemprop="itemListElement"'
-            . ' itemtype="http://schema.org/ListItem"';
+            . ' itemtype="https://schema.org/ListItem"';
     }
 
     /**
